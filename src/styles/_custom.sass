@@ -2,12 +2,34 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 90%
+    min-width: 81px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 52%
+    right: 90%
+    min-width: 75px
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 75%
+  &-4
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 73%
+    right: 50%
+  &-5
+    animation: float2 3.3s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 10%
+  &-6
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 11%
     right: 30%
 
 
@@ -17,3 +39,67 @@
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal
+  .tarjeta
+    @media (max-width: 768px)
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.png') !important
+  .banner-principal__row
+    .banner-principal__info
+      .banner-principal__componente
+        h1
+          color: black
+      .banner-principal__descripcion
+        p
+          color: black
+      @media (max-width: 768px)
+        padding: 4rem 2rem !important
+    .banner-principal__img
+      max-width: 445px
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/bg-header.png') !important
+.curso-main-container
+  .tarjeta--blanca
+    position: relative
+    overflow: hidden
+    &::after
+      content: url("../assets/curso/temas/bg-top.png")
+      position: absolute
+      top: 7.2rem
+      left: 0
+      @media (max-width: 768px)
+        top: 5.7rem
+.bg-left-to-right
+  margin-left: -3rem
+  margin-right: -3rem
+  padding-right: 3rem
+  padding-left: 3rem
+  min-width: calc( 100% + 6rem )
+.slyder-a
+  .slyder-a__tipo-b
+    .slyder-a__btn--atrs, .slyder-a__btn--sigt
+      background-color: #FD7F23
+      color: #111E61
+.acordeon-edit
+  position: relative
+  z-index: 2
+  .tarjeta--azul
+    padding-top: .6rem !important
+    background-color: #E1DDDB
+    .acordion__header
+      margin-bottom: .6rem !important
+      .acordion__accion
+        .acordion__accion__btn--b
+          background-color: #FD7F23
+          border-color: #FD7F23
+  .acordion__activo
+    background-image: url('../assets/curso/temas/bg-pestanas.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
