@@ -17,24 +17,167 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.png')})`}"
       style="background-repeat: no-repeat;"
     )
-      TabsA.color-acento-botones.mb-5
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Chocolate negro")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Cobertura de chocolate")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Chocolate con leche")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph 
-        .tarjeta.color-acento-botones--borde.p-4(titulo="Chocolate blanco")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph 
+      TabsA.tabs-a-edit.color-acento-botones.mb-5
+        .tarjeta.p-4(titulo="Chocolate negro")
+          h4 Cobertura de chocolate
+          .d-flex.flex-wrap.align-items-center
+            .col-xl-7.pe-xl-3.order-2.order-xl-1
+              p Es el chocolate que utilizan los chocolateros y los pasteleros como materia prima, se utiliza para cubrir frutas u otros alimentos congelados; puede ser negro o en leche.
+              ul.lista-ul--color
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Composición: ] proporción de manteca de cacao del 30 %.
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Característica:] puede ser negro o con leche.
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Uso:] se usa para rellenar o forrar pasteles, es muy moldeable y da brillo.
+            img.col-xl-5.mb-4.mb-xl-0.order-1.order-xl-2.mx-auto(src="@/assets/curso/temas/tema3/img-3.png" style="max-width: 333px;")
+        .tarjeta.p-4(titulo="Cobertura de chocolate")
+          h4 Chocolate negro
+          .d-flex.flex-wrap.align-items-center
+            .col-xl-7.pe-xl-3.order-2.order-xl-1
+              p El chocolate negro con alto contenido de cacao tiende a ser muy amargo, al menos que se haya elaborado con cacao fino o de semilla blanca.
+              ul.lista-ul--color
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Composición:] proporción de chocolate negro mayor del 50 % (a partir de esa proporción el sabor amargo es perceptible).
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Característica:] pasta de cacao + manteca de cacao (azúcar opcional).
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Uso:] de fácil acceso en el mercado, se encuentra en diferentes presentaciones.
+            img.col-xl-5.mb-4.mb-xl-0.order-1.order-xl-2.mx-auto(src="@/assets/curso/temas/tema3/img-4.png" style="max-width: 333px;")
+        .tarjeta.p-4(titulo="Chocolate con leche")
+          h4 Chocolate con leche
+          .d-flex.flex-wrap.align-items-center
+            .col-xl-7.pe-xl-3.order-2.order-xl-1
+              p Es básicamente un dulce, por lo que la proporción de pasta de cacao normalmente está por debajo del 40 %. Como su nombre lo indica, lleva leche en polvo añadida, por lo que su color es más claro.
+              ul.lista-ul--color
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Composición:] proporción de pasta de cacao por debajo del 40 %.
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Característica:] pasta del cacao + leche (condensada o en polvo) + azúcar (50 %).
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Uso:] es de fácil acceso y se encuentra en diferentes presentaciones, chocolatina preferida por los niños.
+            img.col-xl-5.mb-4.mb-xl-0.order-1.order-xl-2.mx-auto(src="@/assets/curso/temas/tema3/img-5.png" style="max-width: 333px;")
+        .tarjeta.p-4(titulo="Chocolate blanco")
+          h4 Chocolate blanco
+          .d-flex.flex-wrap.align-items-center
+            .col-xl-7.pe-xl-3.order-2.order-xl-1
+              p Se elabora de manteca de cacao (por lo menos el 20 %), leche en polvo y azúcar. Estrictamente hablando no es chocolate.
+              ul.lista-ul--color
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Composición: ] carece de pasta de cacao.
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Característica:] manteca de cacao + azúcar + leche.
+                li.d-flex.mb-0
+                  span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                  p.mb-0 #[b Uso:] se utiliza en la repostería para realizar pasteles, bombones y otras especialidades.
+            img.col-xl-5.mb-4.mb-xl-0.order-1.order-xl-2.mx-auto(src="@/assets/curso/temas/tema3/img-6.png" style="max-width: 333px;")
 
-      .tarjeta.d-flex.flex-wrap.col-xl-10.mx-auto
-        .col-lg-3.mx-auto
+    .col-xl-10.mx-auto
+      .tarjeta.tarjeta-edit.d-flex.flex-wrap.p-4
+        .col-lg-3.mx-auto.position-relative(style="z-index: 1;")
           img.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 230px;")
-        p.col-lg-8.mx-auto.ps-lg-4 El proceso productivo de la cobertura de chocolate inicia con la mezcla de cacao, azúcar y manteca, a partir de ese momento comienzan las etapas de fabricación, cuyo primer paso es realizar la mezcla del cacao, el azúcar y los lácteos en diferentes proporciones a través de una “concha-refinadora de chocolates” según el tipo de cobertura que se desee; luego pasa por un proceso de refinado con el que se busca eliminar las partículas arenosas que hayan quedado de la mezcla para obtener una masa homogénea y completamente suave; seguido es llevada a una conchadora buscando mejorar la textura y eliminar la viscosidad de la masa resultante y pasarla al almacenamiento en tanques para conservar su estado de fluidez y finalmente moldearla en diversos tamaños y peso, con el fin de obtener las tabletas que serán comercializadas una vez estén frías.
+        p.position-relative.col-lg-8.mx-auto.px-lg-4(style="z-index: 1;") El proceso productivo de la cobertura de chocolate inicia con la mezcla de cacao, azúcar y manteca, a partir de ese momento comienzan las etapas de fabricación, cuyo primer paso es realizar la mezcla del cacao, el azúcar y los lácteos en diferentes proporciones a través de una “concha-refinadora de chocolates” según el tipo de cobertura que se desee; luego pasa por un proceso de refinado con el que se busca eliminar las partículas arenosas que hayan quedado de la mezcla para obtener una masa homogénea y completamente suave; seguido es llevada a una conchadora buscando mejorar la textura y eliminar la viscosidad de la masa resultante y pasarla al almacenamiento en tanques para conservar su estado de fluidez y finalmente moldearla en diversos tamaños y peso, con el fin de obtener las tabletas que serán comercializadas una vez estén frías.
+        img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-8.svg" style="max-width: 150px; bottom: 0; right: 0; position: absolute;")
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-7.png" style="max-width: 98px; position: relative; margin-top: -2.7rem;")
+    p Lo anterior hace parte de las etapas de producción de la cobertura de chocolate, las cuales se describen a continuación.
+      
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_3_1 3.1  Mezclado
+    
+    .d-flex.flex-wrap.align-items-center.mb-5
+      img.col-xl-5.mb-4.mb-xl-0.mx-auto(src="@/assets/curso/temas/tema3/img-9.png" style="max-width: 505px;")
+      .col-xl-7.ps-xl-4
+        p La elaboración de chocolate parte de la obtención de la pasta de cacao, pero para lograr un sabor y textura característico y de calidad se deben añadir diferentes ingredientes como lo son: manteca de cacao, azúcar, leche, aderezos, saborizantes y frutos deshidratados como almendras, maní o avellanas; a este proceso se le conoce como mezclado y es donde se mezclan todos los productos anteriormente citados para lograr así una sola masa para luego pasarla al proceso de refinado. 
+        .position-relative.p-4(style="background-color: #F6F6F6;")
+          p.mb-0 Las características más relevantes de la masa que se genera en esta fase es su color y aspecto físico, el primero es agradable y el segundo es arenoso. Esta acción se realiza en una mezcladora donde por medio de un agitador unifica todos los ingredientes y, por presentar un movimiento repetitivo, el calor de la masa aumenta. Respecto a las clases de chocolates que existen, en el chocolate negro se mezcla la pasta de cacao, la manteca de cacao y el azúcar; en el chocolate con leche se mezcla la pasta de cacao, la manteca de cacao, el azúcar y la leche; y en el chocolate blanco se mezcla la manteca de cacao, el azúcar y la leche.
+          img.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 98px; position: absolute; bottom: -2rem; right: 0;")
+    
+    .d-flex.flex-wrap.align-items-center.mb-5
+      .col-xl-7.pe-xl-4.order-2.order-xl-1
+        p El objetivo de esta fase es mezclar los ingredientes para obtener una pasta homogénea y así poder seguir con el proceso productivo, los ingredientes a los que se les realiza este proceso son la pasta de cacao, la manteca de cacao, el azúcar, la leche y los demás productos que le ayudarán a dar las condiciones deseadas al producto final. El mezclado se realiza en una mezcladora industrial y su proceso puede dudar hasta 30 horas, una vez finalice se obtiene una masa homogénea y cremosa con un aspecto arenoso.
+        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000080;")
+          p.mb-0.fw-bold Cabe aclarar que cuando se desea procesar un chocolate de calidad al licor de cacao se le mezcla manteca de cacao, pero si se desea procesar un chocolate de menor calidad se mezcla polvo de cacao, grasas vegetales, azúcar, saborizante y espesantes.
+      img.col-xl-5.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema3/img-9.png" style="max-width: 505px;")
+    .bg-left-to-right.pb-5.position-relative(style="background: linear-gradient(0deg, rgba(255,255,255,1) 45%, rgba(252,192,45,1) 45%, rgba(252,192,45,1) 90%, rgba(255,255,255,1) 90%);")
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/float-bg-6.png" style="max-width: 127px; position: absolute; left: 0; top: 220px;")
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/float-bg-3.png" style="max-width: 120px; position: absolute; right: -1rem; top: 270px;")
+      .tarjeta.d-flex.flex-wrap.mb-5.p-4.position-relative(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-tj.svg')})`}"
+        style="z-index: 1;overflow: hidden; box-shadow: 0px 8px 21px #00000020; background-repeat: no-repeat; background-size: cover"
+      )
+        img.d-flex.mx-auto.col-xl-4.mb-4.my-xl-auto(src="@/assets/curso/temas/tema3/img-11.png" style="max-width: 300px")
+        p.p-4.mb-0.col-xl-8 En esta fase al igual que en las siguientes, existe la manipulación de los productos por parte de los operarios, quienes son los encargados de garantizar la calidad del proceso productivo, ellos deben conocer perfectamente en qué consiste la actividad de transformación del cacao y del chocolate, pues en caso de que algo salga mal, deberán eliminar lo realizado y comenzar de nuevo. La rutina de mezclado en la planta procesadora es la siguiente: 
+      .tarjeta.p-4.position-relative(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.png')})`}"
+        style="z-index: 1; background-color: white; box-shadow: 0 8px 21px #00000080; background-repeat: no-repeat;"
+      )
+        .col-xl-10.mx-auto
+          p En esta fase existen tres tipos de conchado: seco, plástico y líquido. A continuación se explicará cada uno:
+          PasosA.color-acento-contenido.mb-5(tipo="n")
+            .row
+              .col-lg-8.mb-4.mb-md-0.order-2.order-lg-1
+                h4 Mezclar el azúcar
+                p Cuando el operario que se encarga de esta fase lleva el azúcar a la mezcladora se calcula el tiempo de mezcla de cada bulto de azúcar que son 8 minutos. Es importante aclarar que por cada descarga de licor se le adiciona un bulto de azúcar.
+              .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/tema3/img-12.png' style="max-width: 257px;")
+            
+            .row
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/tema3/img-13.png' style="max-width: 257px;")
+              .col-lg-8.mb-4.mb-md-0
+                h4.text-start Mezclar el azúcar
+                p.text-start Cuando el operario que se encarga de esta fase lleva el azúcar a la mezcladora se calcula el tiempo de mezcla de cada bulto de azúcar que son 8 minutos. Es importante aclarar que por cada descarga de licor se le adiciona un bulto de azúcar.
+            
+            .row
+              .col-lg-8.mb-4.mb-md-0.order-2.order-lg-1
+                h4 Mezclar el azúcar
+                p Cuando el operario que se encarga de esta fase lleva el azúcar a la mezcladora se calcula el tiempo de mezcla de cada bulto de azúcar que son 8 minutos. Es importante aclarar que por cada descarga de licor se le adiciona un bulto de azúcar.
+              .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/curso/temas/tema3/img-14.png' style="max-width: 257px;")
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_3_2 3.2 Refinado
+    
+    .d-flex.flex-wrap.align-items-center.mb-5
+      p.col-xl-7.pe-xl-4.order-2.order-xl-1 Esta fase consiste en someter la mezcla que llega de la fase anterior a una serie de rodillos para obtener una pasta suave, a través de un proceso que busca mejorar la textura del chocolate, generando un producto sin sensación de aspereza; la masa se pasa por un molino refinador hasta que no presente ninguna partícula arenosa. 
+        br
+        br
+        |Las pequeñas partículas de sólidos (cacao, azúcar y leche) se comportan como una fase dispersa, adquieren una forma más uniforme y se recubren con manteca de cacao, lo cual está relacionado con la viscosidad y la fluidez, las propiedades de textura del chocolate, así como la manera en la que el producto terminado se funde suavemente en la boca. Este proceso promueve el desarrollo del sabor mediante diversos factores como el tiempo, la temperatura y los demás ingredientes de la receta, pero también elimina la humedad y los sabores desagradables volátiles (aldehídos y ácidos grasos volátiles de cadena corta) que están altamente relacionados con el origen y las características de los granos de cacao.
+      img.col-xl-5.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema3/img-15.png" style="max-width: 505px;")
+    
+    .d-flex.flex-wrap.align-items-center.mb-5
+      img.col-lg-4.mb-4.mb-xl-0.mx-auto(src="@/assets/curso/temas/tema3/img-16.png" style="max-width: 505px;")
+      .col-lg-8.ps-xl-4
+        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000080;")
+          p.fw-bold Parámetros de control 
+          p Están asociados al tamaño de las partículas generadas en el proceso de refinado, en este caso debe ser 25 micras, esto se obtiene gracias a la pulverización del cacao, las cuales quedan más pequeñas que las papilas gustativas, generando así un producto sin sensación de grumos o partículas en la masa. 
+    
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_3_3 3.3  Conchado
+    
+    .d-flex.flex-wrap.align-items-center.mb-5.p-4.p-xl-0.position-relative
+      img.mx-auto.col-xl-5.mb-4.mb-xl-0.position-relative(src="@/assets/curso/temas/tema3/img-17.png" style="max-width: 505px; z-index: 1;")
+      .col-xl-7.ps-xl-4.bg-text-t4
+        p.mb-0.p-4 Esta fase es fundamental en el proceso de obtención del chocolate, el sabor y la textura se clarifican gracias a la mezcla constante a temperaturas elevadas, pues de las buenas prácticas depende la calidad del resultado; el conchado se realiza mediante un proceso mecánico y el porcentaje de grasa se obtiene en este proceso. 
+          br
+          br
+          |Para mejorar el porcentaje de grasa muchas veces se utiliza la adición de lecitina de soja, en especial para los chocolates negros; este emulsionante debe manipularse con precaución, ya que si no se usan las cantidades necesarias la viscosidad puede aumentar y no se debe olvidar que este es un factor diferenciador de la buena calidad del chocolate.
 
 </template>
 
@@ -55,4 +198,48 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabs-a-edit
+  .tabs-a__tab
+    background-color: #FEE9B5 !important
+  .tabs-a__tab__selected, .tabs-a__tab:hover
+    background-color: #3A1C12 !important
+    color: white !important
+    &::before
+      background-color: #3A1C12 !important
+  .tarjeta
+    background-color: white
+    box-shadow: 0 3px 6px #00000080
+.tarjeta-edit
+  background-color: #FFF6DF
+  overflow: hidden
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    background-color: #7D5F54
+    z-index: 0
+    width: 1000px
+    height: 500px
+    top: 6rem
+    left: -45%
+    transform: rotate(50deg)
+.bg-text-t4
+  display: flex
+  align-items: stretch
+  height: 100%
+  p
+    position: relative
+    z-index: 1
+  &::after
+    content: ''
+    position: absolute
+    top: 0
+    left: 30%
+    width: 70%
+    height: 100%
+    background-color: #FFF6DF
+    @media (max-width: 1200px)
+      left: 0
+      width: 100%
+</style>

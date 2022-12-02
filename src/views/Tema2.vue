@@ -83,130 +83,132 @@
           br
           |El Instituto Español del Cacao y el Chocolate ha realizado varias investigaciones acerca del valor nutricional y energético que aporta el chocolate al ser humano y su resultado es que puede generar entre 450 y 600 calorías    y, se considera un producto recomendable en situaciones que requieran un aporte energético. La tabla que se presenta a continuación compara la composición nutricional de las tres coberturas más conocidas
 
-    
-    .tabla-a.color-secundario.col-12.col-xl-10.mx-auto.mb-5(style="overflow: auto;")
-      .titulo-sexto.color-acento-contenido
-        h5 Tabla 2.
-        span Composición nutricional del chocolate en tres tipos de coberturas
-      table(style="min-width: 500px")
-        thead
-          tr(style="background-color: #FCC02D;")
-            th(style="border: none;") Componentes (100 gramos)
-            th(style="border: none;") Chocolate negro
-            th(style="border: none;") Chocolate con leche
-            th(style="border: none;") Chocolate blanco
-        tbody.text-center(style="background-color: white;")
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Energía (kcal)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 449-534
-            td(style="border: none; border-right: 1px solid #AFAFAF") 511-542
-            td(style="border: none;") 529
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Proteínas (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 4,2-7,8
-            td(style="border: none; border-right: 1px solid #AFAFAF") 6,1-9,2
-            td(style="border: none;") 8
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Hidratos de carbono (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 47-65
-            td(style="border: none; border-right: 1px solid #AFAFAF") 54,1-60
-            td(style="border: none;") 58,3
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Almidón
-            td(style="border: none; border-right: 1px solid #AFAFAF") 3,1
-            td(style="border: none; border-right: 1px solid #AFAFAF") 1,1
-            td(style="border: none;") -
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Azúcares (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 50,1-60
-            td(style="border: none; border-right: 1px solid #AFAFAF") 54,1-56,9
-            td(style="border: none;") 58,3
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Fibra (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 5,9-9
-            td(style="border: none; border-right: 1px solid #AFAFAF") 1,8
-            td(style="border: none;") -
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Grasas (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 29-30,6
-            td(style="border: none; border-right: 1px solid #AFAFAF") 30-31,8
-            td(style="border: none;") 30,9
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Grasa saturada (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 15,1-18,2
-            td(style="border: none; border-right: 1px solid #AFAFAF") 17,6-19,9
-            td(style="border: none;") 18,2
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") G. monoinsaturada (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 8,1-10
-            td(style="border: none; border-right: 1px solid #AFAFAF") 9,6-10,7
-            td(style="border: none;") 9,9
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") G. Poliinsaturada (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,7-1,2
-            td(style="border: none; border-right: 1px solid #AFAFAF") 1,0-1,2
-            td(style="border: none;") 1,1
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Sodio (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,02-0,08
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,06-1,12
-            td(style="border: none;") 0,11
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Potasio (g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,4
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,34-0,47
-            td(style="border: none;") 0,35
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Calcio (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 35-63
-            td(style="border: none; border-right: 1px solid #AFAFAF") 190-214
-            td(style="border: none;") 270
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Fósforo
-            td(style="border: none; border-right: 1px solid #AFAFAF") 167-287
-            td(style="border: none; border-right: 1px solid #AFAFAF") 199-242
-            td(style="border: none;") 230
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Hierro (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 2,2-3,2
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,8-2,3
-            td(style="border: none;") 0,2
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Magnesio (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 100-113
-            td(style="border: none; border-right: 1px solid #AFAFAF") 45-86
-            td(style="border: none;") 26
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Cinc (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 1,4-2,0
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,2-0,9
-            td(style="border: none;") 0,9
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Vit. A (UI)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 3
-            td(style="border: none; border-right: 1px solid #AFAFAF") 150-165
-            td(style="border: none;") 180
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Vit. E (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,25-0,3
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,4-0,6
-            td(style="border: none;") 1,14
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Vit. B1 (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,04-0,07
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,05-0,1
-            td(style="border: none;") 0,08
-          tr
-            td(style="border: none; border-right: 1px solid #AFAFAF") Vit. B6 (mg)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,04-0,05
-            td(style="border: none; border-right: 1px solid #AFAFAF") 0,05-0,11
-            td(style="border: none;") 0,07
-          tr(style="background-color: #FFF6DF;")
-            td(style="border: none; border-right: 1px solid #AFAFAF") Ac. fólico (micro g)
-            td(style="border: none; border-right: 1px solid #AFAFAF") 6-10
-            td(style="border: none; border-right: 1px solid #AFAFAF") 5-10
-            td(style="border: none;") 10
-      p.mb-0.px-4.py-2(style="background-color: #E8E8E8") #[b Nota.] Tomado del Instituto del Cacao y del Chocolate citado por Cuídate Plus (2017).
+    .position-relative
+      .tabla-a.color-secundario.col-12.col-xl-10.mx-auto.mb-5(style="overflow: auto;")
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2.
+          span Composición nutricional del chocolate en tres tipos de coberturas
+        table(style="min-width: 500px")
+          thead
+            tr(style="background-color: #FCC02D;")
+              th(style="border: none;") Componentes (100 gramos)
+              th(style="border: none;") Chocolate negro
+              th(style="border: none;") Chocolate con leche
+              th(style="border: none;") Chocolate blanco
+          tbody.text-center(style="background-color: white;")
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Energía (kcal)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 449-534
+              td(style="border: none; border-right: 1px solid #AFAFAF") 511-542
+              td(style="border: none;") 529
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Proteínas (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 4,2-7,8
+              td(style="border: none; border-right: 1px solid #AFAFAF") 6,1-9,2
+              td(style="border: none;") 8
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Hidratos de carbono (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 47-65
+              td(style="border: none; border-right: 1px solid #AFAFAF") 54,1-60
+              td(style="border: none;") 58,3
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Almidón
+              td(style="border: none; border-right: 1px solid #AFAFAF") 3,1
+              td(style="border: none; border-right: 1px solid #AFAFAF") 1,1
+              td(style="border: none;") -
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Azúcares (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 50,1-60
+              td(style="border: none; border-right: 1px solid #AFAFAF") 54,1-56,9
+              td(style="border: none;") 58,3
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Fibra (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 5,9-9
+              td(style="border: none; border-right: 1px solid #AFAFAF") 1,8
+              td(style="border: none;") -
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Grasas (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 29-30,6
+              td(style="border: none; border-right: 1px solid #AFAFAF") 30-31,8
+              td(style="border: none;") 30,9
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Grasa saturada (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 15,1-18,2
+              td(style="border: none; border-right: 1px solid #AFAFAF") 17,6-19,9
+              td(style="border: none;") 18,2
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") G. monoinsaturada (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 8,1-10
+              td(style="border: none; border-right: 1px solid #AFAFAF") 9,6-10,7
+              td(style="border: none;") 9,9
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") G. Poliinsaturada (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,7-1,2
+              td(style="border: none; border-right: 1px solid #AFAFAF") 1,0-1,2
+              td(style="border: none;") 1,1
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Sodio (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,02-0,08
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,06-1,12
+              td(style="border: none;") 0,11
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Potasio (g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,4
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,34-0,47
+              td(style="border: none;") 0,35
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Calcio (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 35-63
+              td(style="border: none; border-right: 1px solid #AFAFAF") 190-214
+              td(style="border: none;") 270
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Fósforo
+              td(style="border: none; border-right: 1px solid #AFAFAF") 167-287
+              td(style="border: none; border-right: 1px solid #AFAFAF") 199-242
+              td(style="border: none;") 230
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Hierro (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 2,2-3,2
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,8-2,3
+              td(style="border: none;") 0,2
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Magnesio (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 100-113
+              td(style="border: none; border-right: 1px solid #AFAFAF") 45-86
+              td(style="border: none;") 26
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Cinc (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 1,4-2,0
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,2-0,9
+              td(style="border: none;") 0,9
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Vit. A (UI)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 3
+              td(style="border: none; border-right: 1px solid #AFAFAF") 150-165
+              td(style="border: none;") 180
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Vit. E (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,25-0,3
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,4-0,6
+              td(style="border: none;") 1,14
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Vit. B1 (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,04-0,07
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,05-0,1
+              td(style="border: none;") 0,08
+            tr
+              td(style="border: none; border-right: 1px solid #AFAFAF") Vit. B6 (mg)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,04-0,05
+              td(style="border: none; border-right: 1px solid #AFAFAF") 0,05-0,11
+              td(style="border: none;") 0,07
+            tr(style="background-color: #FFF6DF;")
+              td(style="border: none; border-right: 1px solid #AFAFAF") Ac. fólico (micro g)
+              td(style="border: none; border-right: 1px solid #AFAFAF") 6-10
+              td(style="border: none; border-right: 1px solid #AFAFAF") 5-10
+              td(style="border: none;") 10
+        p.mb-0.px-4.py-2(style="background-color: #E8E8E8") #[b Nota.] Tomado del Instituto del Cacao y del Chocolate citado por Cuídate Plus (2017).
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/float-bg-6.png" style="max-width: 127px; position: absolute; bottom: 0; left: -3rem;")
+      img.d-none.d-lg-flex(src="@/assets/curso/temas/float-bg-1.png" style="max-width: 85px; position: absolute; top: 8%; right: 0rem;")
 
     Separador
     .titulo-segundo.color-acento-contenido
