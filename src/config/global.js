@@ -102,7 +102,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema2',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo:

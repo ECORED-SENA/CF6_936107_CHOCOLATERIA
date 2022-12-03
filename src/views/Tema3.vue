@@ -107,7 +107,7 @@
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-xl-7.pe-xl-4.order-2.order-xl-1
         p El objetivo de esta fase es mezclar los ingredientes para obtener una pasta homogénea y así poder seguir con el proceso productivo, los ingredientes a los que se les realiza este proceso son la pasta de cacao, la manteca de cacao, el azúcar, la leche y los demás productos que le ayudarán a dar las condiciones deseadas al producto final. El mezclado se realiza en una mezcladora industrial y su proceso puede dudar hasta 30 horas, una vez finalice se obtiene una masa homogénea y cremosa con un aspecto arenoso.
-        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000080;")
+        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000020;")
           p.mb-0.fw-bold Cabe aclarar que cuando se desea procesar un chocolate de calidad al licor de cacao se le mezcla manteca de cacao, pero si se desea procesar un chocolate de menor calidad se mezcla polvo de cacao, grasas vegetales, azúcar, saborizante y espesantes.
       img.col-xl-5.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema3/img-9.png" style="max-width: 505px;")
     .bg-left-to-right.pb-5.position-relative(style="background: linear-gradient(0deg, rgba(255,255,255,1) 45%, rgba(252,192,45,1) 45%, rgba(252,192,45,1) 90%, rgba(255,255,255,1) 90%);")
@@ -163,7 +163,7 @@
     .d-flex.flex-wrap.align-items-center.mb-5
       img.col-lg-4.mb-4.mb-xl-0.mx-auto(src="@/assets/curso/temas/tema3/img-16.png" style="max-width: 505px;")
       .col-lg-8.ps-xl-4
-        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000080;")
+        .tarjeta.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF; box-shadow: 0 3px 6px #00000020;")
           p.fw-bold Parámetros de control 
           p Están asociados al tamaño de las partículas generadas en el proceso de refinado, en este caso debe ser 25 micras, esto se obtiene gracias a la pulverización del cacao, las cuales quedan más pequeñas que las papilas gustativas, generando así un producto sin sensación de grumos o partículas en la masa. 
     
@@ -178,7 +178,58 @@
           br
           br
           |Para mejorar el porcentaje de grasa muchas veces se utiliza la adición de lecitina de soja, en especial para los chocolates negros; este emulsionante debe manipularse con precaución, ya que si no se usan las cantidades necesarias la viscosidad puede aumentar y no se debe olvidar que este es un factor diferenciador de la buena calidad del chocolate.
+      img(src="@/assets/curso/temas/tema3/img-18.svg" style="max-width: 110px; z-index: 1; position: absolute; bottom: -50px; right: 0;")
+    
+    .d-flex.flex-wrap.align-items-center
+      p.tarjeta.col-md.mb-0.pe-md-5.order-2.order-md-1 En este proceso de conchado se mezclan los componentes de la masa por medio de la conchadora, que tiene amasadores que giran en sentido contrario y a diferentes velocidades, buscando que la masa de chocolate mejore la viscosidad y la textura para obtener como resultado un producto con características óptimas de fusión. La agitación constante en la conchadora y el tiempo de la masa en la misma depende de la calidad que se desea, pues el proceso puede durar hasta 3 días en la búsqueda de la emulsión deseada.
+      img.mb-4.mb-md-0.position-relative.py-2.order-1.order-md-2(src="@/assets/curso/temas/img-1.svg" style="max-width: 85px")
+    
+    .bg-left-to-right.py-5.mb-5(style="background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(252,192,45,1) 30%, rgba(252,192,45,1) 80%, rgba(255,255,255,1) 80%);")
+      .tarjeta.d-flex.flex-wrap.align-items-center.mb-5.mb-xl-0.p-4.position-relative(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-21.svg')})`}"
+          style="z-index: 1;overflow: hidden; box-shadow: 0px 8px 21px #00000020; background-repeat: no-repeat; background-size: cover"
+        )
+          img.d-none.d-xl-flex.mx-auto.col-xl-2.mb-4.my-xl-auto.order-xl-1(src="@/assets/curso/temas/tema3/img-19.svg" style="max-width: 300px")
+          .p-4.mb-0.col-xl-6.order-2.order-xl-2
+            h4 En la etapa de conchado se busca:
+            ul.lista-ul--color
+              li.d-flex.mb-2
+                span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                p.mb-0 Reducir el agua y ácidos orgánicos como el acético de la masa.
+              li.d-flex.mb-2
+                span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                p.mb-0 Humectar con grasa las partículas no grasas de la masa.
+              li.d-flex.mb-2
+                span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                p.mb-0 Alcanzar una grasa continua.
+              li.d-flex.mb-2
+                span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                p.mb-0 Obtener el sabor que se desea.
+              li.d-flex.mb-2
+                span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
+                p.mb-0 Disminuir la viscosidad.
+          img.d-flex.mx-auto.col-xl-4.mb-4.my-xl-auto.order-1.order-xl-3(src="@/assets/curso/temas/tema3/img-20.svg" style="max-width: 300px")
 
+      .position-relative.d-flex.justify-content-between.mb-5.mb-lg-0
+        img.d-none.d-lg-flex.mb-auto(src="@/assets/curso/temas/float-bg-6.png" style="max-width: 127px; margin-top: -4rem; margin-left: -3rem;")
+        img.d-none.d-lg-flex.my-auto(src="@/assets/curso/temas/float-bg-3.png" style="max-width: 85px; margin-right: -3rem;")
+      
+      .tarjeta.d-flex.flex-wrap.align-items-center.mb-5.p-4.position-relative(
+          style="margin-top: -4rem; background-color: white;z-index: 1;overflow: hidden; box-shadow: 0px 8px 21px #00000020; background-repeat: no-repeat; background-size: cover"
+        )
+        .col-xl-11.d-flex.flex-wrap.mx-auto
+          AcordionA.col-xl-6.acordeon-edit.order-2.order-xl-1(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+            .p-0(titulo="Conchado seco")
+              p.mb-0 El parámetro de control de este tipo es permitir la evaporación de los ácidos volátiles del cacao y el % de humedad de la masa. La concentración del ácido acético permanecerá, ya que no hay agua que actúe como vapor de arrastre. 
+            .p-0(titulo="Conchado plástico")
+              p.mb-0 El parámetro de control permite desarrollar por medio de reacciones químicas un sabor característico del producto, esto debido al proceso continuo de agitación con temperaturas constantes, y se genera una gran volatilización de ácido acético que a la vez genera la fermentación del cacao.
+            .p-0(titulo="Conchado líquido")
+              p.mb-0 El parámetro de control permite identificar las propiedades de viscosidad y fluidez en la adición de manteca de cacao y emulsionantes; algunos chocolates negros se pueden conchar en una temperatura máxima de 90°C, debido a los productos volátiles generados en la fermentación. 
+          img.mx-auto.col-xl-6.mb-4.my-xl-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema3/img-22.png" style="max-width: 505px")
+
+    .tarjeta.d-flex.flex-wrap.align-items-center.position-relative.p-4.px-xl-5(style="background-color: #FFF6DF;")
+      img.mx-auto.col-xl-4.mb-4.mb-xl-0(src="@/assets/curso/temas/tema3/img-23.png" style="max-width: 403px")
+      p.mb-0.col-xl-8 Para finalizar, es importante mencionar que agroindustrialmente el cacao pertenece a los alimentos que gracias a su proceso de fermentación natural, genera sus cualidades de aroma y sabor característicos; en la calidad del chocolate influye de forma significativa la solidificación y la cristalización de la manteca de cacao, además de la eliminación de sabores amargos y texturas que vienen de las fases anteriores, teniendo en cuenta el número de cristales, su forma y tamaño y especialmente, el modo en el que se fusionan entre sí, sin dejar de lado la oxigenación y la cremosidad adecuada de la masa, son determinantes para que el chocolate tenga las propiedades y las cualidades aromáticas deseadas.
 </template>
 
 <script>
@@ -209,7 +260,7 @@ export default {
       background-color: #3A1C12 !important
   .tarjeta
     background-color: white
-    box-shadow: 0 3px 6px #00000080
+    box-shadow: 0 3px 6px #00000020
 .tarjeta-edit
   background-color: #FFF6DF
   overflow: hidden
@@ -224,22 +275,4 @@ export default {
     top: 6rem
     left: -45%
     transform: rotate(50deg)
-.bg-text-t4
-  display: flex
-  align-items: stretch
-  height: 100%
-  p
-    position: relative
-    z-index: 1
-  &::after
-    content: ''
-    position: absolute
-    top: 0
-    left: 30%
-    width: 70%
-    height: 100%
-    background-color: #FFF6DF
-    @media (max-width: 1200px)
-      left: 0
-      width: 100%
 </style>
