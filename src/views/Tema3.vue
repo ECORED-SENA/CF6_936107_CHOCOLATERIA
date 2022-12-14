@@ -19,7 +19,7 @@
     )
       TabsA.tabs-a-edit.color-acento-botones.mb-5
         .tarjeta.p-4(titulo="Chocolate negro")
-          h4 Cobertura de chocolate
+          h4 Chocolate negro
           .d-flex.flex-wrap.align-items-center
             .col-xl-7.pe-xl-3.order-2.order-xl-1
               p Es el chocolate que utilizan los chocolateros y los pasteleros como materia prima, se utiliza para cubrir frutas u otros alimentos congelados; puede ser negro o en leche.
@@ -35,7 +35,7 @@
                   p.mb-0 #[b Uso:] se usa para rellenar o forrar pasteles, es muy moldeable y da brillo.
             img.col-xl-5.mb-4.mb-xl-0.order-1.order-xl-2.mx-auto(src="@/assets/curso/temas/tema3/img-3.png" style="max-width: 333px;")
         .tarjeta.p-4(titulo="Cobertura de chocolate")
-          h4 Chocolate negro
+          h4 Cobertura de chocolate
           .d-flex.flex-wrap.align-items-center
             .col-xl-7.pe-xl-3.order-2.order-xl-1
               p El chocolate negro con alto contenido de cacao tiende a ser muy amargo, al menos que se haya elaborado con cacao fino o de semilla blanca.
@@ -139,13 +139,13 @@
                 figure
                   img.mx-auto(src='@/assets/curso/temas/tema3/img-13.png' style="max-width: 257px;")
               .col-lg-8.mb-4.mb-md-0
-                h4.text-start Mezclar el azúcar
-                p.text-start Cuando el operario que se encarga de esta fase lleva el azúcar a la mezcladora se calcula el tiempo de mezcla de cada bulto de azúcar que son 8 minutos. Es importante aclarar que por cada descarga de licor se le adiciona un bulto de azúcar.
+                h4.text-start Compactación
+                p.text-start Una vez ocurra esto se pasa la masa obtenida de la mezcla a una segunda mezcladora, con el fin de que quede más compacta, esto se da ya que la segunda máquina posee aspas, lo que permite una mejor agitación.
             
             .row
               .col-lg-8.mb-4.mb-md-0.order-2.order-lg-1
-                h4 Mezclar el azúcar
-                p Cuando el operario que se encarga de esta fase lleva el azúcar a la mezcladora se calcula el tiempo de mezcla de cada bulto de azúcar que son 8 minutos. Es importante aclarar que por cada descarga de licor se le adiciona un bulto de azúcar.
+                h4 Verificación de temperatura
+                p Durante el proceso el operario debe verificar la temperatura tanto de la masa como del agua con la que trabaja la máquina. En esta fase se busca obtener una pasta homogénea.
               .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img.mx-auto(src='@/assets/curso/temas/tema3/img-14.png' style="max-width: 257px;")
@@ -209,7 +209,9 @@
                 span(style="background-color: #FD7F23; min-width: 11px; width: 11px; height: 11px; border-radius: 50%; margin-top: .35rem;")
                 p.mb-0 Disminuir la viscosidad.
           img.d-flex.mx-auto.col-xl-4.mb-4.my-xl-auto.order-1.order-xl-3(src="@/assets/curso/temas/tema3/img-20.svg" style="max-width: 300px")
-
+      .position-relative
+        p.d-flex.d-lg-none.mb-5 En esta fase existen tres tipos de conchado: seco, plástico y líquido. A continuación se explicará cada uno:
+        p.d-none.d-lg-flex.mb-0(style="position: absolute; bottom: -6rem; left: 2rem; z-index: 1") En esta fase existen tres tipos de conchado: seco, plástico y líquido. A continuación se explicará cada uno:
       .position-relative.d-flex.justify-content-between.mb-5.mb-lg-0
         img.d-none.d-lg-flex.mb-auto(src="@/assets/curso/temas/float-bg-6.png" style="max-width: 127px; margin-top: -4rem; margin-left: -3rem;")
         img.d-none.d-lg-flex.my-auto(src="@/assets/curso/temas/float-bg-3.png" style="max-width: 85px; margin-right: -3rem;")

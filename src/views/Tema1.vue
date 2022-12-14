@@ -106,7 +106,7 @@
                   th Pérdidas (%)
               tbody(style="background-color: white;")
                 tr
-                  td Semilla con suciedad 
+                  td Semilla humedad
                   td 492,5
                   td 
                   td 
@@ -195,7 +195,7 @@
                   td 
                   td 1,23
                   td 0,35 %
-          p En este proceso la semilla pierde en cascarilla 116,97 kg, en porcentaje de producto es del 25 %, a la fase de molienda entrarán 350,91 kg de semilla sin cascara.
+          p La pérdida de producto en esta fase es baja, solo se tiene un 0,35 % de pérdida, para la fase de prensado se cuenta con 349,68 kg de semilla partida.
         
         .p-0(titulo="Prensado")
           .d-flex.flex-wrap.align-items-center.justify-content-center.mb-5.w-100
@@ -333,7 +333,7 @@
                   td 
                   td 139,15
                   td 20 %
-          p En esta fase se utiliza la manteca de cacao de la fase anterior y se le adicionan componentes nuevos para obtener el producto final, en este caso, azúcar y leche en polvo, las pérdidas de producto son mínimas, son del 0,3 %.
+          p En el refinado se obtiene la pasta refinada, en este proceso se obtiene 345,89 kg, el porcentaje en cuanto pérdidas es de 15 %.
         
         .p-0(titulo="Atemperado y moldeado")
           .d-flex.flex-wrap.align-items-center.justify-content-center.mb-5.w-100
