@@ -1,0 +1,12 @@
+<svg id="Grupo_80445" data-name="Grupo 80445" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328.4" height="585.746" viewBox="0 0 1328.4 585.746">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eae8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_78341" data-name="Grupo 78341" transform="translate(0 0)">
+    <path id="Trazado_113528" data-name="Trazado 113528" d="M2.235-1559.973s-85.629-7.95-277.3,57.764-619.909-27.044-717.229-37.579-270.688,2.126-333.475,29.4v480.919h1328Z" transform="translate(1326.165 1560.275)" opacity="0.531" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Trazado_113527" data-name="Trazado 113527" d="M2.235-1560.275s-223.333,92.683-536.47,48.374c-162.832-23.041-330.233-2.637-456.956,0-117.471,2.444-194.5-12.7-334.574-34.53l-.4,548.516h1328Z" transform="translate(1326.165 1583.661)" opacity="0.63" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>
