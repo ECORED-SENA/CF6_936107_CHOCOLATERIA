@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.tarjeta--blanca-t4.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -94,4 +94,29 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+@media (max-width: 1400px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 9.2rem !important
+@media (max-width: 991px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 11.6rem !important
+@media (max-width: 768px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 10rem !important
+@media (max-width: 477px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 12.4rem !important
+@media (max-width: 461px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 15rem !important
+@media (max-width: 340px)
+  .tarjeta--blanca-t4
+    &::after
+      top: 19.6rem !important
+</style>

@@ -58,7 +58,7 @@
               .col.mb-3.mb-sm-0
                 p.mb-0 Para conocer las normas internacionales de los alimentos, ingrese al enlace del CODEX ALIMENTARIUS:
               .col-sm-auto
-                a.boton.color-acento-botones.fw-bold(:href="'https://repositorio-sena-edu-co.bdigital.sena.edu.co/bitstream/handle/11404/5241/agroindustria_cacao.pdf?sequence=1&isAllowed=y'" target="_blank")
+                a.boton.color-acento-botones.fw-bold(:href="'https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B87-1981%252FCXS_087s.pdf'" target="_blank")
                   span.pe-4 Enlace web
                   <svg style="width: 26px" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
                     <g id="Grupo_176308" data-name="Grupo 176308" transform="translate(-1221 -2969)">
@@ -314,63 +314,63 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-8.png')})`}"
       style="background-repeat: no-repeat;"
     )
-      .col-12.col-lg-5.col-xl-4.px-md-2.order-2.order-md-1
+      .col-12.col-lg-6.px-md-2.order-2.order-md-1(style="max-width: 408px;")
         .tarjeta-edit-v1.me-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Lentes
+            h3.col-11.col-md-10.mx-auto Lentes
             img.img-right(src="@/assets/curso/temas/tema2/c-1.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protege los ojos de alguna salpicadura de algún liquido en el proceso de carga y de descarga.
         
         .tarjeta-edit-v1.me-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Tapones auditivos
+            h3.col-11.col-md-10.mx-auto.justify-content-start.justify-content-md-center.ps-4.ps-md-0 Tapones auditivos
             img.img-right(src="@/assets/curso/temas/tema2/c-2.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protege los oídos de ruidos altos causados por las maquinarias del proceso productivo. 
         
         .tarjeta-edit-v1.me-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Chaleco reflectivo
+            h3.col-11.col-md-10.mx-auto.justify-content-start.justify-content-md-center.ps-4.ps-md-0 Chaleco reflectivo
             img.img-right(src="@/assets/curso/temas/tema2/c-3.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Permite la visibilidad del operario en lugares con poca luz.
         
         .tarjeta-edit-v1.me-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Fajas lumbares
+            h3.col-11.col-md-10.mx-auto.justify-content-start.justify-content-md-center.ps-4.ps-md-0 Fajas lumbares
             img.img-right(src="@/assets/curso/temas/tema2/c-4.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protegen la espalda cuando se levanta mucho peso.
 
-      .d-none.d-lg-flex.col-lg-2.px-2.order-md-2
+      .d-none.d-xl-flex.col-lg-2.px-2.order-md-2
         img(src="@/assets/curso/temas/tema2/img-9.svg")
 
-      .col-12.col-lg-5.col-xl-4.px-md-2.order-1.order-md-3
+      .col-12.col-lg-6.px-md-2.order-1.order-md-3(style="max-width: 408px;")
         .tarjeta-edit-v1.ms-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Casco
+            h3.col-11.col-md-10.mx-auto Casco
             img.img-left(src="@/assets/curso/temas/tema2/c-5.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protege la cabeza de golpes causados por caídas o impactos de materiales que hacen parte del proceso de carga y de descarga.
         
         .tarjeta-edit-v1.ms-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Guantes
+            h3.col-11.col-md-10.mx-auto Guantes
             img.img-left(src="@/assets/curso/temas/tema2/c-6.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protege las manos de tener contacto con algún material contaminante y a la vez perjudicial para la salud.
         
         .tarjeta-edit-v1.ms-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Botas punta de acero
+            h3.col-11.col-md-10.mx-auto.justify-content-end.justify-content-md-center.pe-4.pe-md-0 Botas punta de acero
             img.img-left(src="@/assets/curso/temas/tema2/c-7.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Protege los pies de algún impacto con materiales contundentes. 
         
         .tarjeta-edit-v1.ms-md-auto
           .header-tarjeta
-            h3.col-10.mx-auto Tapabocas
+            h3.col-11.col-md-10.mx-auto Tapabocas
             img.img-left(src="@/assets/curso/temas/tema2/c-8.svg" style="max-width: 107px")
           .tarjeta.px-5.py-4(style="margin-top: -1.7rem; background-color: #FEE9B5")
             p.pt-3.mb-0 Evita inhalar sustancias o partículas que afectan directamente la salud del operario.
@@ -398,6 +398,9 @@ export default {
 .tarjeta-edit-v1
   width: 90%
   margin-bottom: 4rem
+  @media (max-width: 768px)
+    margin-right: auto
+    margin-left: auto
   .tarjeta
     min-height: 150px
   .header-tarjeta

@@ -24,7 +24,7 @@
           .w-100.p-4.tarjeta.tarjeta-edit
             img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 248px;")
             h4 Chocolate negro semiamargo
-            p Está compuesto por un 60 % de cacao, 30% de manteca y 10 % de azúcar
+            p Está compuesto por un 60 % de cacao, 30% de manteca y 10 % de azúcar.
 
         .col-12.col-md-6.col-lg-4.col-xl-3.mx-auto.d-flex.px-md-2.mb-4
           .w-100.p-4.tarjeta.tarjeta-edit
@@ -52,7 +52,7 @@
       img.d-none.d-xl-flex(src="@/assets/curso/temas/float-bg-1.png" style="max-width: 98px; position: absolute; top: 0; left: -3rem;")
       img.d-none.d-xl-flex(src="@/assets/curso/temas/float-bg-2.png" style="max-width: 127px; position: absolute; top: 0; right: -3rem;")
       img.d-none.d-xl-flex(src="@/assets/curso/temas/float-bg-3.png" style="max-width: 85px; position: absolute; bottom: -2rem; left: -2rem;")
-      AcordionA.col-xl-10.mx-auto.acordeon-edit(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      AcordionA.col-12.col-xl-10.mx-auto.acordeon-edit(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
         .p-0(titulo="Tamizado")
           .d-flex.flex-wrap.align-items-center.justify-content-center.mb-5.w-100
             .col-xl-8.order-2.order-xl-1.pe-xl-4
@@ -285,7 +285,7 @@
                   td 
                   td 1,21
                   td 0,3 %
-          p En esta fase se utiliza la manteca de cacao de la fase anterior y se le adicionan componentes nuevos para obtener el producto final, en este caso, azúcar y leche en polvo, las pérdidas de producto son mínimas, son del 0,3 %.}
+          p En esta fase se utiliza la manteca de cacao de la fase anterior y se le adicionan componentes nuevos para obtener el producto final, en este caso, azúcar y leche en polvo, las pérdidas de producto son mínimas, son del 0,3 %.
 
         .p-0(titulo="Conchado y refinado ")
           .d-flex.flex-wrap.align-items-center.justify-content-center.mb-5.w-100
